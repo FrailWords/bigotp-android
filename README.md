@@ -129,7 +129,7 @@ Pattern contributions are the most impactful way to help — see [CONTRIBUTING.m
 - History entries expire within minutes and can be manually deleted
 - No analytics SDK, no crash reporter, no identifiers
 - No network calls that include OTP content or device identifiers
-- The full privacy policy is in [`release/privacy_policy.html`](release/privacy_policy.html)
+- The full privacy policy is at [bigotp.in/privacy_policy](https://bigotp.in/privacy_policy)
 
 ---
 

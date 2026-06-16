@@ -114,6 +114,11 @@ The file has a top-level `"version"` integer. Increment it when you add or chang
 
 ---
 
-## Out of scope for v1
+## Future roadmap
 
-Do not send PRs for: Hindi TTS, Firebase/Crashlytics, analytics SDKs, READ_SMS permission, Wear OS, caregiver mode, or any network call that transmits OTP content.
+These are not yet accepted but are on the horizon — open a discussion before starting work on any of these:
+
+- Hindi TTS and regional language support
+- Wear OS companion
+- Caregiver mode (trusted person receives a copy of the OTP)
+- Wider accessibility: switch access improvements, braille display support
