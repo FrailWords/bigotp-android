@@ -141,10 +141,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide. The short version:
 - **Bug reports** — use the GitHub issue template, include device model, Android version, and an anonymised SMS sample
 - **Code changes** — read the architecture constraints in CONTRIBUTING.md before starting; many rules exist for accessibility reasons and are non-negotiable
 
-### What's out of scope for v1
-
-Hindi TTS, Firebase/Crashlytics, analytics, READ_SMS permission, Wear OS, caregiver mode, any network call that transmits OTP content.
-
 ---
 
 ## License
