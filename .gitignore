@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local configuration — contains keystore credentials, never commit
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
+
+# Release artifacts — store listings, assets, guides (kept local only)
+release/

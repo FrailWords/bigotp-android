@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BigOTP</string>
+    <string name="app_tagline">Clear codes, every time</string>
+    <string name="never_share">Never share this code with anyone — not even bank staff</string>
+    <string name="payment_otp_label">Payment OTP</string>
+    <string name="copy">Copy</string>
+    <string name="done">Done</string>
+    <string name="urgency_healthy">remaining</string>
+    <string name="urgency_warning">remaining</string>
+    <string name="urgency_critical">Expires soon</string>
+    <string name="urgency_expired">Expired</string>
+    <string name="otp_channel_name">OTP Alerts</string>
+    <string name="otp_channel_description">Full-screen alerts when an OTP arrives</string>
+</resources>

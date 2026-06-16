@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "patterns": [
+    {
+      "id": "sbi",
+      "sourceKeywords": ["SBI", "SBIINB", "State Bank", "SBIPSG"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "login",
+      "amountRegex": null,
+      "friendlyName": "SBI Bank"
+    },
+    {
+      "id": "sbi-payment",
+      "sourceKeywords": ["SBI", "SBIINB", "State Bank"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "SBI Bank"
+    },
+    {
+      "id": "hdfc",
+      "sourceKeywords": ["HDFC", "HDFCBK", "HDFC Bank"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "login",
+      "amountRegex": null,
+      "friendlyName": "HDFC Bank"
+    },
+    {
+      "id": "hdfc-payment",
+      "sourceKeywords": ["HDFC", "HDFCBK"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "HDFC Bank"
+    },
+    {
+      "id": "icici",
+      "sourceKeywords": ["ICICI", "ICICIB", "ICICI Bank", "ICICIBK", "ICICIBANKLTD"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "login",
+      "amountRegex": null,
+      "friendlyName": "ICICI Bank"
+    },
+    {
+      "id": "icici-payment",
+      "sourceKeywords": ["ICICI", "ICICIB", "ICICI Bank"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "ICICI Bank"
+    },
+    {
+      "id": "axis",
+      "sourceKeywords": ["Axis", "AXISBK", "Axis Bank", "AXISB"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "login",
+      "amountRegex": null,
+      "friendlyName": "Axis Bank"
+    },
+    {
+      "id": "axis-payment",
+      "sourceKeywords": ["Axis", "AXISBK", "Axis Bank"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "Axis Bank"
+    },
+    {
+      "id": "kotak",
+      "sourceKeywords": ["Kotak", "KOTAKB", "Kotak Bank", "KOTAK-MAHINDRA"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "login",
+      "amountRegex": null,
+      "friendlyName": "Kotak Bank"
+    },
+    {
+      "id": "kotak-payment",
+      "sourceKeywords": ["Kotak", "KOTAKB", "Kotak Bank"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "Kotak Bank"
+    },
+    {
+      "id": "phonepe",
+      "sourceKeywords": ["PhonePe", "PHONEPE", "Phone Pe"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "PhonePe"
+    },
+    {
+      "id": "gpay",
+      "sourceKeywords": ["GPay", "Google Pay", "GPAY"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "Google Pay"
+    },
+    {
+      "id": "paytm",
+      "sourceKeywords": ["Paytm", "PAYTM"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "Paytm"
+    },
+    {
+      "id": "amazon-pay",
+      "sourceKeywords": ["Amazon Pay", "AMAZON", "AmazonPay"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "payment",
+      "amountRegex": "(?:Rs\\.?|₹)\\s*(\\d[\\d,]*)",
+      "friendlyName": "Amazon Pay"
+    },
+    {
+      "id": "irctc",
+      "sourceKeywords": ["IRCTC", "Indian Railways"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "login",
+      "amountRegex": null,
+      "friendlyName": "IRCTC"
+    },
+    {
+      "id": "aadhaar",
+      "sourceKeywords": ["UIDAI", "Aadhaar", "AADHAR"],
+      "otpRegex": "\\b(\\d{6})\\b",
+      "type": "login",
+      "amountRegex": null,
+      "friendlyName": "Aadhaar / UIDAI"
+    },
+    {
+      "id": "generic",
+      "sourceKeywords": [
+        "OTP", "one-time", "one time", "verification code",
+        "access code", "security code", "login code",
+        "share", "do not share"
+      ],
+      "otpRegex": "\\b(\\d{4,8}|[A-Z0-9]{4,8})\\b",
+      "type": "login",
+      "amountRegex": null
+    }
+  ]
+}
