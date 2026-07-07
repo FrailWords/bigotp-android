@@ -43,7 +43,7 @@ See [bigotp.in](https://bigotp.in) for screenshots and a live demo.
 
 ## Download
 
-Available on the Google Play Store: *coming soon*
+Available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.bigotp.app).
 
 Or build from source — see below.
 
